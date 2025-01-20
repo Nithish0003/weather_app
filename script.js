@@ -1,4 +1,4 @@
-const apiKey = "734556b46e735b7f5dd387718295cd5d",
+const apiKey = import.meta.env.VITE_API_KEY,
   apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=",
   searchBox = document.querySelector(".search input"),
   searchBtn = document.querySelector(".search button"),
